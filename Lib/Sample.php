@@ -9,12 +9,24 @@
 namespace Lib;
 
 
+use Lib\DesignPattern\SimpleFactory\SimpleFactorySample;
+
 class Sample
 {
-
+    /**
+     * 脚本执行
+     */
     public static function run()
     {
-        // 脚本执行
+        try {
+
+            // 1. 简单工厂
+            SimpleFactorySample::sample();
+
+        } catch (\Exception $e) {
+            echo $e->getMessage();
+            echo "\n";
+        }
     }
 
 }
