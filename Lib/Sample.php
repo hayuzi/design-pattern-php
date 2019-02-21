@@ -14,7 +14,7 @@ class Sample
 
     public static function run()
     {
-        // 开启脚本
+        // 脚本执行
     }
 
 }

@@ -14,7 +14,8 @@ class Index
 
     public static function index()
     {
-        echo 11111 . "\n";
+        // 以获取 汽车类为例子
+        // 两个品牌的汽车，我们使用简单工厂来实现
     }
 
 }
