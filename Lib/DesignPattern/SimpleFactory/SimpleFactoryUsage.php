@@ -9,7 +9,7 @@
 namespace Lib\DesignPattern\SimpleFactory;
 
 
-class SimpleFactorySample
+class SimpleFactoryUsage
 {
 
     /**

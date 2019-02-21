@@ -9,7 +9,10 @@
 namespace Lib;
 
 
-use Lib\DesignPattern\SimpleFactory\SimpleFactorySample;
+use Lib\DesignPattern\AbstractFactory\AbstractFactoryUsage;
+use Lib\DesignPattern\FactoryMethod\FactoryMethodUsage;
+use Lib\DesignPattern\SimpleFactory\SimpleFactoryUsage;
+use Lib\DesignPattern\Singleton\SingletonUsage;
 
 class Sample
 {
@@ -20,8 +23,24 @@ class Sample
     {
         try {
 
-            // 1. 简单工厂
-            SimpleFactorySample::sample();
+            /** ============ 创建型模式 ============ */
+            SimpleFactoryUsage::sample();   // 0. 简单工厂 (不在23种设计模式中)
+            FactoryMethodUsage::sample();   // 1. 工厂方法
+            AbstractFactoryUsage::sample(); // 2. 抽象工厂
+
+            SingletonUsage::sample();       // 3. 单例模式
+
+
+            /** ============ 结构型模式 ============ */
+
+
+
+            /** ============ 行为型模式 ============ */
+
+
+
+            /** ============ J2EE 模式 ============ */
+
 
         } catch (\Exception $e) {
             echo $e->getMessage();
