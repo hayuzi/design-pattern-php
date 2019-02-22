@@ -36,7 +36,7 @@ class SingletonUsage implements UsageInterface
          *  3. 饿汉式，线程安全 ( 自生的静态属性直接就赋值为实例化好的对象 )
          *  4. 双检锁/双重校验锁（DCL，即 double-checked locking） 针对java
          *  5. 登记式/静态内部类
-         *  6.
+         *  6. 枚举               针对java
          *
          */
 

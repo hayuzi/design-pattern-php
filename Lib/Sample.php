@@ -24,11 +24,11 @@ class Sample
         try {
 
             /** ============ 创建型模式 ============ */
-            SimpleFactoryUsage::sample();   // 0. 简单工厂 (不在23种设计模式中)
-            FactoryMethodUsage::sample();   // 1. 工厂方法
-            AbstractFactoryUsage::sample(); // 2. 抽象工厂
+            SimpleFactoryUsage::sample();   // 0. 简单工厂  Simple Factory Pattern(不在23种设计模式中)
+            FactoryMethodUsage::sample();   // 1. 工厂方法  Factory Method Pattern
+            AbstractFactoryUsage::sample(); // 2. 抽象工厂  Abstract Factory Pattern
 
-            SingletonUsage::sample();       // 3. 单例模式
+            SingletonUsage::sample();       // 3. 单例模式  Singleton Pattern
 
 
             /** ============ 结构型模式 ============ */
