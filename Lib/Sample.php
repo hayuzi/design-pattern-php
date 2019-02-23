@@ -12,6 +12,7 @@ namespace Lib;
 use Lib\DesignPattern\Builder\BuilderUsage;
 use Lib\DesignPattern\AbstractFactory\AbstractFactoryUsage;
 use Lib\DesignPattern\FactoryMethod\FactoryMethodUsage;
+use Lib\DesignPattern\Prototype\PrototypeUsage;
 use Lib\DesignPattern\SimpleFactory\SimpleFactoryUsage;
 use Lib\DesignPattern\Singleton\SingletonUsage;
 
@@ -29,9 +30,9 @@ class Sample
             FactoryMethodUsage::sample();   // 1. 工厂方法  Factory Method Pattern
             AbstractFactoryUsage::sample(); // 2. 抽象工厂  Abstract Factory Pattern
 
-            SingletonUsage::sample();       // 3. 单例模式  Singleton Pattern
-            BuilderUsage::sample();         // 4. 建造者模式 Builder Pattern
-
+            SingletonUsage::sample();       // 3. 单例模式      Singleton Pattern
+            BuilderUsage::sample();         // 4. 建造者模式     Builder Pattern
+            PrototypeUsage::sample();       // 5. 原型模式      Prototype Pattern
 
             /** ============ 结构型模式 ============ */
 
