@@ -34,10 +34,11 @@ class BuilderUsage implements UsageInterface
         // 然后使用监工去去建造不同的机器人
 
 
+        StringFmt::echoWithEol();
         StringFmt::echoWithEol("======== Builder Pattern =======");
         StringFmt::echoWithEol($robot->getHead());
         StringFmt::echoWithEol($robot->getFoot());
-        StringFmt::echoWithEol();
+
 
     }
 
