@@ -17,8 +17,6 @@ class BuilderUsage implements UsageInterface
 
     public static function sample()
     {
-        // TODO: Implement sample() method.
-
         /**
          * 建造者模式，又称生成器模式：将一个复杂的构建与其表示相分离，使得同样的构建过程可以创建不同的表示。
             三个角色：建造者、具体的建造者、监工、使用者（严格来说不算）
@@ -31,6 +29,11 @@ class BuilderUsage implements UsageInterface
         // 使用者
         $director = new Director();//监工
         $robot = $director->createRobotByDirector(new WallERobotBuilder());
+
+        // 想要生产其他的机器人， 只需要写一个建造者并实现建造者接口就行了.
+        // 然后使用监工去去建造不同的机器人
+
+
         StringFmt::echoWithEol("======== Builder Pattern =======");
         StringFmt::echoWithEol($robot->getHead());
         StringFmt::echoWithEol($robot->getFoot());
