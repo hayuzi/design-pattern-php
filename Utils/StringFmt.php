@@ -13,7 +13,7 @@ class StringFmt
     /**
      * @param $string
      */
-    public static function echoWithEol($string)
+    public static function echoWithEol($string = "")
     {
         echo $string . PHP_EOL;
     }

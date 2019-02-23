@@ -10,6 +10,7 @@ namespace Lib\DesignPattern\Builder;
 
 
 use Lib\DesignPattern\UsageInterface;
+use Utils\StringFmt;
 
 class BuilderUsage implements UsageInterface
 {
@@ -30,11 +31,10 @@ class BuilderUsage implements UsageInterface
         // 使用者
         $director = new Director();//监工
         $robot = $director->createRobotByDirector(new WallERobotBuilder());
-
-        echo "==========\n";
-        echo $robot->getHead() . "\n";
-
-        echo "==========\n";
+        StringFmt::echoWithEol("======== Builder Pattern =======");
+        StringFmt::echoWithEol($robot->getHead());
+        StringFmt::echoWithEol($robot->getFoot());
+        StringFmt::echoWithEol();
 
     }
 

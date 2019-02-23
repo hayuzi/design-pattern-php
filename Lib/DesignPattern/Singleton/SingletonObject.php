@@ -9,6 +9,8 @@
 namespace Lib\DesignPattern\Singleton;
 
 
+use Utils\StringFmt;
+
 class SingletonObject
 {
 
@@ -46,7 +48,7 @@ class SingletonObject
      */
     public function otherFunctions()
     {
-        echo 'Singleton otherFunctions usage';
+        StringFmt::echoWithEol('Singleton otherFunctions usage');
     }
 
 

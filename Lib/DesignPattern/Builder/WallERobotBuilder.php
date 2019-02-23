@@ -39,19 +39,19 @@ class WallERobotBuilder implements RobotBuilderInterface
 
     public function buildHand()
     {
-        $this->wallE->setHead("WallE Hand");
+        $this->wallE->setHand("WallE Hand");
     }
 
 
     public function buildBody()
     {
-        $this->wallE->setHead("WallE Body");
+        $this->wallE->setBody("WallE Body");
     }
 
 
     public function buildFoot()
     {
-        $this->wallE->setHead("WallE Foot");
+        $this->wallE->setFoot("WallE Foot");
     }
 
 
