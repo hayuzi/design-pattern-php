@@ -20,6 +20,7 @@ use Lib\DesignPattern\Flyweight\FlyweightUsage;
 use Lib\DesignPattern\FactoryMethod\FactoryMethodUsage;
 use Lib\DesignPattern\Filter\FilterUsage;
 use Lib\DesignPattern\Prototype\PrototypeUsage;
+use Lib\DesignPattern\Proxy\ProxyUsage;
 use Lib\DesignPattern\SimpleFactory\SimpleFactoryUsage;
 use Lib\DesignPattern\Singleton\SingletonUsage;
 
@@ -55,9 +56,9 @@ class Sample
             CompositeUsage::sample();       // 9. 组合模式          Composite Pattern
             DecoratorUsage::sample();       // 10.装饰器模式         Decorator Pattern
             FacadeUsage::sample();          // 11.门面模式(外观模式) Facade Pattern
-            FlyweightUsage::sample();       // 12. 享元模式         Flyweight Pattern
-
-
+            FlyweightUsage::sample();       // 12.享元模式          Flyweight Pattern
+            ProxyUsage::sample();           // 13.代理模式          Proxy Pattern
+            // 14.  责任链模式 Chain of Responsibility Pattern
 
             /** ============ 行为型模式 ============ */
 
