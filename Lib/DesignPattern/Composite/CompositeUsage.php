@@ -28,7 +28,7 @@ class CompositeUsage implements UsageInterface
 
         // 使用 Employee 类来创建和打印员工的层次结构。
         StringFmt::echoWithEol();
-        StringFmt::echoWithEol('========  Filter Pattern  ========');
+        StringFmt::echoWithEol('========  Composite Pattern  ========');
 
         $ceo             = new Employee("John", "CEO", 30000);
         $headSales       = new Employee("Robert", "Head Sales", 20000);
