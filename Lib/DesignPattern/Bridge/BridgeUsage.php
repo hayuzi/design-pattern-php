@@ -10,6 +10,7 @@ namespace Lib\DesignPattern\Bridge;
 
 
 use Lib\DesignPattern\UsageInterface;
+use Utils\StringFmt;
 
 class BridgeUsage implements UsageInterface
 {
@@ -40,8 +41,14 @@ class BridgeUsage implements UsageInterface
         // 2. 创建实现了 DrawInterface 接口的实体桥接实现类 RedCircle GreenCircle
         // 3. 使用 DrawInterface 接口创建抽象类 AbstractShape
         // 4. 创建实现了 AbstractShape 接口的实体类 Circle
+        // 5. 使用 Shape 和 DrawInterface 类画出不同颜色的圆
 
-
+        StringFmt::echoWithEol();
+        StringFmt::echoWithEol('========  Bridge Pattern  ========');
+        $redCircle   = new Circle(10, 1, 1, new RedCircle());
+        $greenCircle = new Circle(10, 1, 1, new GreenCircle());
+        $redCircle->draw();
+        $greenCircle->draw();
 
 
 

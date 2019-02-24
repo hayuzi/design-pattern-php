@@ -30,7 +30,6 @@ class Circle extends AbstractShape
 
     public function draw()
     {
-        // TODO: Implement draw() method.
         $this->draw->drawCircle($this->radius, $this->x, $this->y);
     }
 
