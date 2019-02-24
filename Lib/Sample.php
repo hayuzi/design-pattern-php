@@ -16,7 +16,7 @@ use Lib\DesignPattern\AbstractFactory\AbstractFactoryUsage;
 use Lib\DesignPattern\Composite\CompositeUsage;
 use Lib\DesignPattern\Decorator\DecoratorUsage;
 use Lib\DesignPattern\Facade\FacadeUsage;
-use Lib\DesignPattern\Facade\FlyweightUsage;
+use Lib\DesignPattern\Flyweight\FlyweightUsage;
 use Lib\DesignPattern\FactoryMethod\FactoryMethodUsage;
 use Lib\DesignPattern\Filter\FilterUsage;
 use Lib\DesignPattern\Prototype\PrototypeUsage;

@@ -6,9 +6,13 @@
  * Time: 22:19
  */
 
-namespace Lib\DesignPattern\Facade;
+namespace Lib\DesignPattern\Flyweight;
 
 
+/**
+ * Interface ShapeInterface
+ * @package Lib\DesignPattern\Flyweight
+ */
 interface ShapeInterface
 {
     public function draw();
