@@ -35,6 +35,14 @@ class BridgeUsage implements UsageInterface
          *
          */
 
+        // 例子步骤:
+        // 1. 创建桥接实现接口 DrawInterface
+        // 2. 创建实现了 DrawInterface 接口的实体桥接实现类 RedCircle GreenCircle
+        // 3. 使用 DrawInterface 接口创建抽象类 AbstractShape
+        // 4. 创建实现了 AbstractShape 接口的实体类 Circle
+
+
+
 
 
     }
