@@ -13,6 +13,7 @@ use Lib\DesignPattern\Adapter\AdapterUsage;
 use Lib\DesignPattern\Bridge\BridgeUsage;
 use Lib\DesignPattern\Builder\BuilderUsage;
 use Lib\DesignPattern\AbstractFactory\AbstractFactoryUsage;
+use Lib\DesignPattern\Composite\CompositeUsage;
 use Lib\DesignPattern\FactoryMethod\FactoryMethodUsage;
 use Lib\DesignPattern\Filter\FilterUsage;
 use Lib\DesignPattern\Prototype\PrototypeUsage;
@@ -47,11 +48,8 @@ class Sample
              */
             AdapterUsage::sample();         // 6. 适配器模式     Adapter Pattern
             BridgeUsage::sample();          // 7. 桥接模式      Bridge Pattern
-            FilterUsage::sample();          // 8. 过滤器模式 Filter Pattern ( 标准模式 Criteria Pattern )
-
-
-
-
+            FilterUsage::sample();          // 8. 过滤器模式     Filter Pattern ( 标准模式 Criteria Pattern )
+            CompositeUsage::sample();       // 9. 组合模式      Composite Pattern
 
             /** ============ 行为型模式 ============ */
 
