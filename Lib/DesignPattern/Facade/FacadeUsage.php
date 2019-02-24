@@ -29,7 +29,7 @@ class FacadeUsage implements UsageInterface
          */
 
         StringFmt::echoWithEol();
-        StringFmt::echoWithEol('========  Decorator Pattern  ========');
+        StringFmt::echoWithEol('========  Facade Pattern  ========');
 
         // 开启、关闭电脑作为示例
         $computer = new ComputerFacade();
