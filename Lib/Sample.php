@@ -10,6 +10,7 @@ namespace Lib;
 
 
 use Lib\DesignPattern\Adapter\AdapterUsage;
+use Lib\DesignPattern\Bridge\BridgeUsage;
 use Lib\DesignPattern\Builder\BuilderUsage;
 use Lib\DesignPattern\AbstractFactory\AbstractFactoryUsage;
 use Lib\DesignPattern\FactoryMethod\FactoryMethodUsage;
@@ -44,6 +45,10 @@ class Sample
              * 这些设计模式关注类和对象的组合。继承的概念被用来组合接口和定义组合对象获得新功能的方式。
              */
             AdapterUsage::sample();         // 6. 适配器模式     Adapter Pattern
+            BridgeUsage::sample();          // 7. 桥接模式      Bridge Pattern
+            // 8. 过滤器模式
+
+
 
 
 
