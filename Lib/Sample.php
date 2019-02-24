@@ -14,6 +14,7 @@ use Lib\DesignPattern\Bridge\BridgeUsage;
 use Lib\DesignPattern\Builder\BuilderUsage;
 use Lib\DesignPattern\AbstractFactory\AbstractFactoryUsage;
 use Lib\DesignPattern\FactoryMethod\FactoryMethodUsage;
+use Lib\DesignPattern\Filter\FilterUsage;
 use Lib\DesignPattern\Prototype\PrototypeUsage;
 use Lib\DesignPattern\SimpleFactory\SimpleFactoryUsage;
 use Lib\DesignPattern\Singleton\SingletonUsage;
@@ -46,7 +47,7 @@ class Sample
              */
             AdapterUsage::sample();         // 6. 适配器模式     Adapter Pattern
             BridgeUsage::sample();          // 7. 桥接模式      Bridge Pattern
-            // 8. 过滤器模式
+            FilterUsage::sample();          // 8. 过滤器模式 Filter Pattern ( 标准模式 Criteria Pattern )
 
 
 
