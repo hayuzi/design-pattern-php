@@ -29,7 +29,12 @@ class IteratorUsage implements UsageInterface
          *      增加新的聚合类需要对应增加新的迭代器类，类的个数成对增加，
          *      这在一定程度上增加了系统的复杂性。
          *
+         * PHP 中也有标准的Iterator接口
          */
+
+
+
+
     }
 
 }
