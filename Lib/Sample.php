@@ -14,6 +14,7 @@ use Lib\DesignPattern\Bridge\BridgeUsage;
 use Lib\DesignPattern\Builder\BuilderUsage;
 use Lib\DesignPattern\AbstractFactory\AbstractFactoryUsage;
 use Lib\DesignPattern\ChainOfResponsibility\ChainOfResponsibilityUsage;
+use Lib\DesignPattern\Command\CommandUsage;
 use Lib\DesignPattern\Composite\CompositeUsage;
 use Lib\DesignPattern\Decorator\DecoratorUsage;
 use Lib\DesignPattern\Facade\FacadeUsage;
@@ -59,9 +60,11 @@ class Sample
             FacadeUsage::sample();                  // 11.门面模式(外观模式) Facade Pattern
             FlyweightUsage::sample();               // 12.享元模式          Flyweight Pattern
             ProxyUsage::sample();                   // 13.代理模式          Proxy Pattern
-            ChainOfResponsibilityUsage::sample();   // 14.责任链模式         Chain of Responsibility Pattern
 
             /** ============ 行为型模式 ============ */
+            ChainOfResponsibilityUsage::sample();   // 14.责任链模式         Chain of Responsibility Pattern
+            CommandUsage::sample();                 // 15.命令模式          Command Pattern
+
 
 
 
