@@ -24,12 +24,10 @@ class Stock
     private $quantity = 10;
 
     public function buy(){
-        StringFmt::echoWithEol("Stock [ Name: ". $this->name .",
-            Quantity: " . $this->quantity . " ] bought");
+        StringFmt::echoWithEol("Stock [ Name: ". $this->name .", Quantity: " . $this->quantity . " ] bought");
     }
 
     public function sell(){
-        StringFmt::echoWithEol("Stock [ Name: ". $this->name .",
-                Quantity: " . $this->quantity . " ] sold");
+        StringFmt::echoWithEol("Stock [ Name: ". $this->name .", Quantity: " . $this->quantity . " ] sold");
        }
     }

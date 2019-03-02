@@ -21,6 +21,7 @@ use Lib\DesignPattern\Facade\FacadeUsage;
 use Lib\DesignPattern\Flyweight\FlyweightUsage;
 use Lib\DesignPattern\FactoryMethod\FactoryMethodUsage;
 use Lib\DesignPattern\Filter\FilterUsage;
+use Lib\DesignPattern\Interpreter\InterpreterUsage;
 use Lib\DesignPattern\Prototype\PrototypeUsage;
 use Lib\DesignPattern\Proxy\ProxyUsage;
 use Lib\DesignPattern\SimpleFactory\SimpleFactoryUsage;
@@ -64,8 +65,8 @@ class Sample
             /** ============ 行为型模式 ============ */
             ChainOfResponsibilityUsage::sample();   // 14.责任链模式         Chain of Responsibility Pattern
             CommandUsage::sample();                 // 15.命令模式          Command Pattern
-
-
+            InterpreterUsage::sample();             // 16.解释器模式         Interpreter Pattern
+            
 
 
             /** ============ J2EE 模式 ============ */
