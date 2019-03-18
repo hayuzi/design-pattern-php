@@ -10,6 +10,7 @@ namespace Lib\DesignPattern\Iterator;
 
 
 use Lib\DesignPattern\UsageInterface;
+use Utils\StringFmt;
 
 class IteratorUsage implements UsageInterface
 {
@@ -25,12 +26,25 @@ class IteratorUsage implements UsageInterface
          *      2、迭代器简化了聚合类。
          *      3、在同一个聚合上可以有多个遍历。
          *      4、在迭代器模式中，增加新的聚合类和迭代器类都很方便，无须修改原有代码。
+         *
          * 缺点：由于迭代器模式将存储数据和遍历数据的职责分离，
          *      增加新的聚合类需要对应增加新的迭代器类，类的个数成对增加，
          *      这在一定程度上增加了系统的复杂性。
          *
-         * PHP 中也有标准的Iterator接口
+         * PHP 中也有标准的Iterator接口，并且提供了部分常用的迭代器
+         *      http://php.net/manual/zh/class.iterator.php
+         *      http://php.net/manual/zh/class.arrayiterator.php
          */
+
+
+        StringFmt::echoWithEol();
+        StringFmt::echoWithEol("======== Iterator pattern =========");
+
+        $it = new myIterator;
+        foreach($it as $key => $value) {
+            StringFmt::echoWithEol('key:' . $key . ' value:' . $value);
+            echo "\n";
+        }
 
 
 
