@@ -31,6 +31,9 @@ class IteratorUsage implements UsageInterface
          *      增加新的聚合类需要对应增加新的迭代器类，类的个数成对增加，
          *      这在一定程度上增加了系统的复杂性。
          *
+         * 迭代器模式就是分离了集合对象的遍历行为，抽象出一个迭代器类来负责，
+         * 这样既可以做到不暴露集合的内部结构，又可让外部代码透明地访问集合内部的数据。
+         *
          * PHP 中也有标准的Iterator接口，并且提供了部分常用的迭代器
          *      http://php.net/manual/zh/class.iterator.php
          *      http://php.net/manual/zh/class.arrayiterator.php
@@ -40,14 +43,14 @@ class IteratorUsage implements UsageInterface
         StringFmt::echoWithEol();
         StringFmt::echoWithEol("======== Iterator pattern =========");
 
-        $it = new myIterator;
+        $collection = new MyCollection();
+        $collection->add('first element');
+        $collection->add('second element');
+        $collection->add('third element');
+        $it = $collection->iterator();
         foreach($it as $key => $value) {
             StringFmt::echoWithEol('key:' . $key . ' value:' . $value);
-            echo "\n";
         }
-
-
-
 
     }
 

@@ -22,16 +22,15 @@ class MyIterator implements \Iterator
     /**
      * @var array
      */
-    private $array = array(
-        "firstelement",
-        "secondelement",
-        "lastelement",
-    );
+    private $array = array();
+
 
     /**
      * MyIterator constructor.
+     * @param $array
      */
-    public function __construct() {
+    public function __construct($array) {
+        $this->array = $array;
         $this->position = 0;
     }
 
