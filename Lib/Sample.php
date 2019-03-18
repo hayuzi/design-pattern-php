@@ -69,6 +69,8 @@ class Sample
             InterpreterUsage::sample();             // 16.解释器模式         Interpreter Pattern
             IteratorUsage::sample();                // 17.迭代器模式         Iterator Pattern
 
+            // 18.中介者模式 Mediator Pattern
+
 
             /** ============ J2EE 模式 ============ */
 
