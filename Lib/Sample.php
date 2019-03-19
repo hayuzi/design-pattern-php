@@ -24,6 +24,7 @@ use Lib\DesignPattern\Filter\FilterUsage;
 use Lib\DesignPattern\Interpreter\InterpreterUsage;
 use Lib\DesignPattern\Iterator\IteratorUsage;
 use Lib\DesignPattern\Mediator\MediatorUsage;
+use Lib\DesignPattern\Memento\MementoUsage;
 use Lib\DesignPattern\Prototype\PrototypeUsage;
 use Lib\DesignPattern\Proxy\ProxyUsage;
 use Lib\DesignPattern\SimpleFactory\SimpleFactoryUsage;
@@ -70,7 +71,7 @@ class Sample
             InterpreterUsage::sample();             // 16.解释器模式         Interpreter Pattern
             IteratorUsage::sample();                // 17.迭代器模式         Iterator Pattern
             MediatorUsage::sample();                // 18.中介者模式         Mediator Pattern
-
+            MementoUsage::sample();                 // 19.备忘录模式         Memento pattern
 
             /** ============ J2EE 模式 ============ */
 
