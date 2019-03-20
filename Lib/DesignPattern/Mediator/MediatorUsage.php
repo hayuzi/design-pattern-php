@@ -29,7 +29,7 @@ class MediatorUsage implements UsageInterface
          *
          */
 
-        // 示例，聊天室展示多人聊天信息，相当于一个终中介者
+        // 示例，聊天室展示多人聊天信息，相当于一个中介者
         StringFmt::echoWithEol();
         StringFmt::echoWithEol("======== Mediator pattern =========");
         $robert = new User('Robert');
