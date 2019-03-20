@@ -25,6 +25,7 @@ use Lib\DesignPattern\Interpreter\InterpreterUsage;
 use Lib\DesignPattern\Iterator\IteratorUsage;
 use Lib\DesignPattern\Mediator\MediatorUsage;
 use Lib\DesignPattern\Memento\MementoUsage;
+use Lib\DesignPattern\Observer\ObserverUsage;
 use Lib\DesignPattern\Prototype\PrototypeUsage;
 use Lib\DesignPattern\Proxy\ProxyUsage;
 use Lib\DesignPattern\SimpleFactory\SimpleFactoryUsage;
@@ -61,17 +62,21 @@ class Sample
             FilterUsage::sample();                  // 8. 过滤器模式         Filter Pattern ( 标准模式 Criteria Pattern )
             CompositeUsage::sample();               // 9. 组合模式          Composite Pattern
             DecoratorUsage::sample();               // 10.装饰器模式         Decorator Pattern
-            FacadeUsage::sample();                  // 11.门面模式(外观模式) Facade Pattern
+            FacadeUsage::sample();                  // 11.门面模式(外观模式)  Facade Pattern
             FlyweightUsage::sample();               // 12.享元模式          Flyweight Pattern
             ProxyUsage::sample();                   // 13.代理模式          Proxy Pattern
 
             /** ============ 行为型模式 ============ */
+            /**
+             * 这些设计模式特别关注对象之间的通信。
+             */
             ChainOfResponsibilityUsage::sample();   // 14.责任链模式         Chain of Responsibility Pattern
             CommandUsage::sample();                 // 15.命令模式          Command Pattern
             InterpreterUsage::sample();             // 16.解释器模式         Interpreter Pattern
             IteratorUsage::sample();                // 17.迭代器模式         Iterator Pattern
             MediatorUsage::sample();                // 18.中介者模式         Mediator Pattern
             MementoUsage::sample();                 // 19.备忘录模式         Memento pattern
+            ObserverUsage::sample();                // 20.观察者模式         Observer pattern
 
             /** ============ J2EE 模式 ============ */
 
