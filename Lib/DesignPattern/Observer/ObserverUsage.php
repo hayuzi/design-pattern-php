@@ -35,6 +35,17 @@ class ObserverUsage implements UsageInterface
          * ObserverUsage，我们的演示类使用 Subject 和实体类对象来演示观察者模式。
          *
          */
+
+
+        $subject = new ConcreteSubject();
+        $subject->attach(new HexaObserver());
+        $subject->attach(new OctalObserver());
+        $subject->attach(new BinaryObserver());
+
+        $subject->setState(15);
+        $subject->setState(15);
+
+
     }
 
 }
