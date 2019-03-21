@@ -30,11 +30,11 @@ class ObserverUsage implements UsageInterface
          *      3、观察者模式没有相应的机制让观察者知道所观察的目标对象是怎么发生变化的，而仅仅只是知道观察目标发生了变化。
          *
          *
-         * 观察者模式使用三个类 Subject、Observer 和 Client。
-         * Subject 对象带有绑定观察者到 Client 对象和从 Client 对象解绑观察者的方法。
-         * 我们创建 Subject 类、Observer 抽象类和扩展了抽象类 Observer 的实体类。
-         * ObserverUsage，我们的演示类使用 Subject 和实体类对象来演示观察者模式。
-         *
+         * 观察者模式使用四个类
+         * 1. 抽象的主题 AbstractSubject 被观察者的抽象类
+         * 2. 具体的主题 ConcreteSubject 这个是被观察的主体 （发布）
+         * 3. 抽象的观察者 AbstractObserver 定义了具体的事件方法
+         * 4. 具体的各个观察者（ 订阅 ）
          */
 
         StringFmt::echoWithEol();
