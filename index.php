@@ -3,6 +3,8 @@
 // 基础加载定义
 use Lib\Sample;
 
+date_default_timezone_set('Asia/Shanghai');
+
 define('ROOT_PATH', __DIR__);
 require_once('./autoLoad.php');
 spl_autoload_register('myAutoLoad');

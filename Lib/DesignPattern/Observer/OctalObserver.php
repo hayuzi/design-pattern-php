@@ -11,12 +11,17 @@ namespace Lib\DesignPattern\Observer;
 
 use Utils\StringFmt;
 
+/**
+ * 具体的观察者三
+ * Class OctalObserver
+ * @package Lib\DesignPattern\Observer
+ */
 class OctalObserver extends AbstractObserver
 {
 
     public function update($state)
     {
-        StringFmt::echoWithEol('Binary string: ' . decoct($state));
+        StringFmt::echoWithEol('Octal string: ' . decoct($state));
     }
 
 }

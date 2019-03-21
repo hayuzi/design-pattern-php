@@ -11,6 +11,11 @@ namespace Lib\DesignPattern\Observer;
 
 use Utils\StringFmt;
 
+/**
+ * 具体的观察者一
+ * Class BinaryObserver
+ * @package Lib\DesignPattern\Observer
+ */
 class BinaryObserver extends AbstractObserver
 {
 

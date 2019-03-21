@@ -11,6 +11,11 @@ namespace Lib\DesignPattern\Observer;
 
 use Utils\StringFmt;
 
+/**
+ * 具体的观察者二
+ * Class HexaObserver
+ * @package Lib\DesignPattern\Observer
+ */
 class HexaObserver extends AbstractObserver
 {
 
@@ -20,7 +25,7 @@ class HexaObserver extends AbstractObserver
      */
     public function update($state)
     {
-        StringFmt::echoWithEol('Hexa string: ' . decoct($state));
+        StringFmt::echoWithEol('Hexa string: ' . dechex($state));
     }
 
 

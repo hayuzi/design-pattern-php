@@ -8,6 +8,8 @@
 
 namespace Lib\DesignPattern\Observer;
 
+use Utils\StringFmt;
+
 /**
  * 具体的主题
  * Class ConcreteSubject
@@ -16,8 +18,17 @@ namespace Lib\DesignPattern\Observer;
 class ConcreteSubject extends AbstractSubject
 {
 
-    private $observers = [];
-    private $state     = 0;
+    /**
+     * 观察者列表
+     * @var array
+     */
+    protected $observers = [];
+
+    /**
+     * 状态
+     * @var int
+     */
+    protected $state     = 0;
 
     /**
      * @return int
@@ -28,6 +39,7 @@ class ConcreteSubject extends AbstractSubject
     }
 
     /**
+     * 更新状态的时候通知到所有观察者
      * @param $state
      */
     public function setState($state)
@@ -65,8 +77,9 @@ class ConcreteSubject extends AbstractSubject
      */
     public function notifyAllObservers()
     {
+        StringFmt::echoWithEol('-------- On state update: ' . $this->state . '-------');
         foreach ($this->observers as $observer) {
-            $observer->update();
+            $observer->update($this->state);
         }
     }
 }

@@ -10,6 +10,7 @@ namespace Lib\DesignPattern\Observer;
 
 
 use Lib\DesignPattern\UsageInterface;
+use Utils\StringFmt;
 
 class ObserverUsage implements UsageInterface
 {
@@ -36,14 +37,17 @@ class ObserverUsage implements UsageInterface
          *
          */
 
-
+        StringFmt::echoWithEol();
+        StringFmt::echoWithEol("======== Observer pattern =========");
         $subject = new ConcreteSubject();
         $subject->attach(new HexaObserver());
         $subject->attach(new OctalObserver());
         $subject->attach(new BinaryObserver());
 
+        // 更新之后会通知到每个观察者.
+        $subject->setState(8);
         $subject->setState(15);
-        $subject->setState(15);
+        $subject->setState(21);
 
 
     }
