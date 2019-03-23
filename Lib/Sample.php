@@ -30,6 +30,7 @@ use Lib\DesignPattern\Prototype\PrototypeUsage;
 use Lib\DesignPattern\Proxy\ProxyUsage;
 use Lib\DesignPattern\SimpleFactory\SimpleFactoryUsage;
 use Lib\DesignPattern\Singleton\SingletonUsage;
+use Lib\DesignPattern\State\StateUsage;
 
 class Sample
 {
@@ -75,8 +76,10 @@ class Sample
             InterpreterUsage::sample();             // 16.解释器模式         Interpreter Pattern
             IteratorUsage::sample();                // 17.迭代器模式         Iterator Pattern
             MediatorUsage::sample();                // 18.中介者模式         Mediator Pattern
-            MementoUsage::sample();                 // 19.备忘录模式         Memento pattern
-            ObserverUsage::sample();                // 20.观察者模式         Observer pattern
+            MementoUsage::sample();                 // 19.备忘录模式         Memento Pattern
+            ObserverUsage::sample();                // 20.观察者模式         Observer Pattern
+            StateUsage::sample();                   // 21.状态模式          State Pattern
+
 
             /** ============ J2EE 模式 ============ */
 
