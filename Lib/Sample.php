@@ -25,6 +25,7 @@ use Lib\DesignPattern\Interpreter\InterpreterUsage;
 use Lib\DesignPattern\Iterator\IteratorUsage;
 use Lib\DesignPattern\Mediator\MediatorUsage;
 use Lib\DesignPattern\Memento\MementoUsage;
+use Lib\DesignPattern\NullObject\NullObjectUsage;
 use Lib\DesignPattern\Observer\ObserverUsage;
 use Lib\DesignPattern\Prototype\PrototypeUsage;
 use Lib\DesignPattern\Proxy\ProxyUsage;
@@ -79,7 +80,7 @@ class Sample
             MementoUsage::sample();                 // 19.备忘录模式         Memento Pattern
             ObserverUsage::sample();                // 20.观察者模式         Observer Pattern
             StateUsage::sample();                   // 21.状态模式          State Pattern
-
+            NullObjectUsage::sample();              // 22.空对象模式         NullObject Pattern
 
             /** ============ J2EE 模式 ============ */
 

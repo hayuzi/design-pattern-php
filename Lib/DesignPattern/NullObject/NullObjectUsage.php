@@ -29,8 +29,15 @@ class NullObjectUsage implements UsageInterface
         StringFmt::echoWithEol();
         StringFmt::echoWithEol("======== NullObject pattern =========");
 
+        $customer1 = CustomerFactory::getCustomer('Rob');
+        $customer2 = CustomerFactory::getCustomer('Bob');
+        $customer3 = CustomerFactory::getCustomer('Julie');
+        $customer4 = CustomerFactory::getCustomer('Laura');
 
-
+        StringFmt::echoWithEol($customer1->getName());
+        StringFmt::echoWithEol($customer2->getName());
+        StringFmt::echoWithEol($customer3->getName());
+        StringFmt::echoWithEol($customer4->getName());
     }
 
 }
