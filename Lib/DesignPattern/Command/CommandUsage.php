@@ -9,7 +9,7 @@
 namespace Lib\DesignPattern\Command;
 
 
-use Lib\DesignPattern\UsageInterface;
+use Lib\UsageInterface;
 use Utils\StringFmt;
 
 class CommandUsage implements UsageInterface

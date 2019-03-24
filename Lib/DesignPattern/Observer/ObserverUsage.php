@@ -9,7 +9,7 @@
 namespace Lib\DesignPattern\Observer;
 
 
-use Lib\DesignPattern\UsageInterface;
+use Lib\UsageInterface;
 use Utils\StringFmt;
 
 class ObserverUsage implements UsageInterface

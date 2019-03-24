@@ -9,7 +9,7 @@
 namespace Lib\DesignPattern\Filter;
 
 
-use Lib\DesignPattern\UsageInterface;
+use Lib\UsageInterface;
 use Utils\StringFmt;
 
 class FilterUsage implements UsageInterface

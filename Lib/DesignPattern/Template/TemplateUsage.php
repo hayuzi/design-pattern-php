@@ -9,7 +9,7 @@
 namespace Lib\DesignPattern\Template;
 
 
-use Lib\DesignPattern\UsageInterface;
+use Lib\UsageInterface;
 use Utils\StringFmt;
 
 /**

@@ -9,7 +9,7 @@
 namespace Lib\DesignPattern\Facade;
 
 
-use Lib\DesignPattern\UsageInterface;
+use Lib\UsageInterface;
 use Utils\StringFmt;
 
 class FacadeUsage implements UsageInterface

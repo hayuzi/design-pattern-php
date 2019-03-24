@@ -8,7 +8,7 @@
 
 namespace Lib\DesignPattern\Singleton;
 
-use Lib\DesignPattern\UsageInterface;
+use Lib\UsageInterface;
 
 /**
  * Class SingletonUsage

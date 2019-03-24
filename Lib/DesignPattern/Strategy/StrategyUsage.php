@@ -9,7 +9,7 @@
 namespace Lib\DesignPattern\Strategy;
 
 
-use Lib\DesignPattern\UsageInterface;
+use Lib\UsageInterface;
 use Utils\StringFmt;
 
 class StrategyUsage implements UsageInterface

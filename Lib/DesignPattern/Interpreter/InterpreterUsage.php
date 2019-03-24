@@ -8,7 +8,7 @@
 
 namespace Lib\DesignPattern\Interpreter;
 
-use Lib\DesignPattern\UsageInterface;
+use Lib\UsageInterface;
 use Utils\StringFmt;
 
 class InterpreterUsage implements UsageInterface

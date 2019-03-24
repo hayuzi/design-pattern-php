@@ -6,7 +6,7 @@
  * Time: 17:22
  */
 
-namespace Lib\DesignPattern;
+namespace Lib;
 
 interface UsageInterface
 {

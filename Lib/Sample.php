@@ -90,6 +90,8 @@ class Sample
             VisitorUsage::sample();                 // 25.访问者模式         Visitor Pattern
 
             /** ============ J2EE 模式 ============ */
+            /** 这些设计模式特别关注表示层。这些模式是由 Sun Java Center 鉴定的。  */
+
 
 
         } catch (\Exception $e) {

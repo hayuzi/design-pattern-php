@@ -9,7 +9,7 @@
 namespace Lib\DesignPattern\Composite;
 
 
-use Lib\DesignPattern\UsageInterface;
+use Lib\UsageInterface;
 use Utils\StringFmt;
 
 class CompositeUsage implements UsageInterface

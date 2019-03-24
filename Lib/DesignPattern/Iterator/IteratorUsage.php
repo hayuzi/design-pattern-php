@@ -9,7 +9,7 @@
 namespace Lib\DesignPattern\Iterator;
 
 
-use Lib\DesignPattern\UsageInterface;
+use Lib\UsageInterface;
 use Utils\StringFmt;
 
 class IteratorUsage implements UsageInterface

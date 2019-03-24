@@ -9,7 +9,7 @@
 namespace Lib\DesignPattern\Visitor;
 
 
-use Lib\DesignPattern\UsageInterface;
+use Lib\UsageInterface;
 use Utils\StringFmt;
 
 class VisitorUsage implements UsageInterface

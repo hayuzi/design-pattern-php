@@ -8,7 +8,7 @@
 
 namespace Lib\DesignPattern\Flyweight;
 
-use Lib\DesignPattern\UsageInterface;
+use Lib\UsageInterface;
 use Utils\StringFmt;
 
 /**

@@ -9,7 +9,7 @@
 namespace Lib\DesignPattern\State;
 
 
-use Lib\DesignPattern\UsageInterface;
+use Lib\UsageInterface;
 use Utils\StringFmt;
 
 class StateUsage implements UsageInterface

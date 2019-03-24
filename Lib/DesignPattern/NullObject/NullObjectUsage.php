@@ -9,7 +9,7 @@
 namespace Lib\DesignPattern\NullObject;
 
 
-use Lib\DesignPattern\UsageInterface;
+use Lib\UsageInterface;
 use Utils\StringFmt;
 
 class NullObjectUsage implements UsageInterface
