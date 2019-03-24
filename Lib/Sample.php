@@ -32,6 +32,7 @@ use Lib\DesignPattern\Proxy\ProxyUsage;
 use Lib\DesignPattern\SimpleFactory\SimpleFactoryUsage;
 use Lib\DesignPattern\Singleton\SingletonUsage;
 use Lib\DesignPattern\State\StateUsage;
+use Lib\DesignPattern\Strategy\StrategyUsage;
 
 class Sample
 {
@@ -81,7 +82,7 @@ class Sample
             ObserverUsage::sample();                // 20.观察者模式         Observer Pattern
             StateUsage::sample();                   // 21.状态模式          State Pattern
             NullObjectUsage::sample();              // 22.空对象模式         NullObject Pattern
-            // 23.策略模式 Strategy Pattern
+            StrategyUsage::sample();                // 23.策略模式          Strategy Pattern
 
             /** ============ J2EE 模式 ============ */
 
