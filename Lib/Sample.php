@@ -33,6 +33,9 @@ use Lib\DesignPattern\SimpleFactory\SimpleFactoryUsage;
 use Lib\DesignPattern\Singleton\SingletonUsage;
 use Lib\DesignPattern\State\StateUsage;
 use Lib\DesignPattern\Strategy\StrategyUsage;
+use Lib\DesignPattern\Template\TemplateUsage;
+use Lib\DesignPattern\Visitor\Visitor;
+use Lib\DesignPattern\Visitor\VisitorUsage;
 
 class Sample
 {
@@ -65,7 +68,7 @@ class Sample
             FilterUsage::sample();                  // 8. 过滤器模式         Filter Pattern ( 标准模式 Criteria Pattern )
             CompositeUsage::sample();               // 9. 组合模式          Composite Pattern
             DecoratorUsage::sample();               // 10.装饰器模式         Decorator Pattern
-            FacadeUsage::sample();                  // 11.门面模式(外观模式)  Facade Pattern
+            FacadeUsage::sample();                  // 11.门面模式(外观模式)  Facade Pattern (23以外)
             FlyweightUsage::sample();               // 12.享元模式          Flyweight Pattern
             ProxyUsage::sample();                   // 13.代理模式          Proxy Pattern
 
@@ -81,8 +84,10 @@ class Sample
             MementoUsage::sample();                 // 19.备忘录模式         Memento Pattern
             ObserverUsage::sample();                // 20.观察者模式         Observer Pattern
             StateUsage::sample();                   // 21.状态模式          State Pattern
-            NullObjectUsage::sample();              // 22.空对象模式         NullObject Pattern
+            NullObjectUsage::sample();              // 22.空对象模式         NullObject Pattern (23以外)
             StrategyUsage::sample();                // 23.策略模式          Strategy Pattern
+            TemplateUsage::sample();                // 24.模板模式          Template Pattern
+            VisitorUsage::sample();                 // 25.访问者模式         Visitor Pattern
 
             /** ============ J2EE 模式 ============ */
 
