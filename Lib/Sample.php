@@ -36,6 +36,7 @@ use Lib\DesignPattern\Strategy\StrategyUsage;
 use Lib\DesignPattern\Template\TemplateUsage;
 use Lib\DesignPattern\Visitor\Visitor;
 use Lib\DesignPattern\Visitor\VisitorUsage;
+use Lib\J2EE\MVC\MVCUsage;
 
 class Sample
 {
@@ -91,7 +92,7 @@ class Sample
 
             /** ============ J2EE 模式 ============ */
             /** 这些设计模式特别关注表示层。这些模式是由 Sun Java Center 鉴定的。  */
-
+            MVCUsage::sample();                     // MVC模式
 
 
         } catch (\Exception $e) {
